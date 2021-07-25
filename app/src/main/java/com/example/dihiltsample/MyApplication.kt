@@ -1,4 +1,9 @@
 package com.example.dihiltsample
 
-class MyApplication {
+import android.app.Application
+import dagger.hilt.android.HiltAndroidApp
+
+//このアプリはHiltで動きますというのを教えました。
+@HiltAndroidApp
+class MyApplication: Application() {
 }
